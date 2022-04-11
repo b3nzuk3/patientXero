@@ -1,2 +1,2 @@
-<p>Author: {{quote.name}} due on {{quote.completeDate | date |uppercase}} </p>
-<button (click)= 'quoteComplete(true)'>Complete</button>
+<p>Author: {{quote.name}} due after {{quote.completeDate | dateCount}} </p>
+<button (click)= 'quoteDelete(true)'>Delete Goal</button>

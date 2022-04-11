@@ -14,11 +14,15 @@ export class QuoteComponent implements OnInit {
     new Quote(3, 'Diana has her birthday coming up soon', 'reare',new Date(2022,6,12)),
     new Quote(4, 'Pupper likes expensive snacks', 'at hgjjve',new Date(2022,4,23))]
 
-  completeGoal(isComplete, index) {
-    if (isComplete) {
-      this.quotes.splice(index, 1);
-    }
-  }
+    deleteQuote(isComplete, index){
+     if (isComplete) {
+       let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].name}?`)
+
+       if (toDelete){
+         this.quotes.splice(index,1)
+       }
+     }
+   }
 
   constructor() { }
 

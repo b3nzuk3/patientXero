@@ -1,8 +1,8 @@
 <h1>My Quotes</h1>
 <ul>
   <li *ngFor='let quote of quotes;let i = index'>
-    {{quote.description}} 
-    <app-quote-detail [quote]='quote' (isComplete) = 'completeGoal($event,i)'></app-quote-detail>
+    {{quote.description}}
+    <app-quote-detail [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
   </li>
 
 </ul>
