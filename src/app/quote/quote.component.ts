@@ -9,10 +9,10 @@ import { Quote } from "../quote";
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
-    new Quote(1, 'Find an online version and watch merlin find his son', 'fdsgsg',new Date(2024,1,26), 0, 0),
-    new Quote(2, 'I have to buy cookies for the parrot', 'fsdgg',new Date(2022,7,19),0,0),
-    new Quote(3, 'Diana has her birthday coming up soon', 'reare',new Date(2022,6,12),0,0),
-    new Quote(4, 'Pupper likes expensive snacks', 'at hgjjve',new Date(2022,4,23),0,0)]
+    new Quote(1, 'Find an online version and watch merlin find his son', 'Learnado Davinci','Anna','Science',new Date(2024,1,26), 0, 0),
+    new Quote(2, 'I have to buy cookies for the parrot', 'fsdgg','james','Art',new Date(2022,7,19),0,0),
+    new Quote(3, 'Diana has her birthday coming up soon', 'reare','Alan','Life',new Date(2022,6,12),0,0),
+    new Quote(4, 'Pupper likes expensive snacks', 'at hgjjve','Klaus','Romance',new Date(2022,4,23),0,0)]
 
     deleteQuote(isComplete, index){
      if (isComplete) {
