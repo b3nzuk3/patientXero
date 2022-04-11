@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
-
+import { Quote } from './quote'
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'quotAble';
+  quotes:Quote[] = [
+    {id:1, name:'Watch finding Nemo'},
+    {id:2,name:'Buy Cookies'},
+    {id:3,name:'Get new Phone Case'},
+    {id:4,name:'Get Dog Food'} ]
 }
