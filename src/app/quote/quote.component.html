@@ -1,7 +1,7 @@
 <h1>My Quotes</h1>
 <ul>
   <li *ngFor='let quote of quotes;let i = index'>
-    {{quote.name}}
+    {{quote.name}} due on {{quote.completeDate | date |uppercase}}
     <app-quote-detail [quote]='quote' (isComplete) = 'completeGoal($event,i)'></app-quote-detail>
   </li>
 
