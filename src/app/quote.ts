@@ -1,5 +1,3 @@
 export class Quote {
-  id: number | undefined ;
-  name: string | undefined;
-  description: string | undefined;
+  constructor(public id: number,public name: string,public description: string){}
 }
