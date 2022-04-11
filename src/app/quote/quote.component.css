@@ -1,9 +1,22 @@
-.quote-h1{
-  color: #06113C;
+h3 {
+  font-family: 'Beau Rivage', cursive;
+  color: #fff;
+  font-size: 2rem;
+  padding-bottom: 10px;
 }
-.quote-layout{
+
+.quote-h1 {
+  color: #06113C;
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.quote-layout {
+  display: inline-block;
   margin: 30px;
-  padding: 20px;
-  border-radius: 20%;
-  background-color: #DDDDDD;
+  padding: 40px;
+  width: 55%;
+  border-radius: 100%;
+  background-color: #000000;
 }
