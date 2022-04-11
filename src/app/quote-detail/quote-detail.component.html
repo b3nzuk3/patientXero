@@ -1,2 +1,8 @@
 <p>Author: {{quote.name}} due after {{quote.completeDate | dateCount}} </p>
-<button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete Quote</button>
+<button (click)='quoteDelete(true)' class="btn btn-outline-danger">Delete Quote</button>
+<button class="btn btn-sm btn-success" id="lk" (click)="likes()">
+  {{ quote.likes }} <i id="like"></i>Upvote
+</button>
+<button class="btn btn-sm hate" id="bad" (click)="dislikes()">
+  {{ quote.dislikes }} <i id="dislike"></i>Downvote
+</button>

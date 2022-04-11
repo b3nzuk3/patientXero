@@ -12,6 +12,12 @@ export class QuoteDetailComponent implements OnInit {
   quoteDelete(complete:boolean){
     this.isComplete.emit(complete);
   }
+  likes() {
+    this.quote.likes += 1;
+  }
+  dislikes() {
+    this.quote.dislikes -= 1;
+  }
 
   constructor() { }
 
