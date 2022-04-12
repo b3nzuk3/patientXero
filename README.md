@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 These is web app allows its user to interact with and the same time share quotes to everyday users.
 ## Setup/Installation Requirements
 Once you access the Webpage, there's a brief description about what quotAble is.
-Once the user reads the title title description he/she can kick start and peruse through the pages content. 
+Once the user reads the title description he/she can kick start and peruse through the pages content. 
 ## Other Projects
 1. Project alpha:
 https://github.com/b3nzuk3/project-alpha
