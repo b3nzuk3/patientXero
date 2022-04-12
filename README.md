@@ -5,9 +5,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 #### By b3nzuk3
 ## Description
 These is web app allows its user to interact with and the same time share quotes to everyday users.
+![LANDING PAGE](patientXero.png)
+
 ## Setup/Installation Requirements
 Once you access the Webpage, there's a brief description about what quotAble is.
-Once the user reads the title description he/she can kick start and peruse through the pages content. 
+Once the user reads the title description he/she can kick start and peruse through the pages content.
 ## Other Projects
 1. Project alpha:
 https://github.com/b3nzuk3/project-alpha
@@ -27,8 +29,8 @@ The site was accomplished by incoperating the three languanges.
 
 HTML - for the text content or anything written and visible to the user.
 CSS - for all the styling and beautiful colors displayed to the user.
-typeSCript - majority of the technology used is typeScript which is very usefull and easy to work with when making angular applicatons. 
- 
+typeSCript - majority of the technology used is typeScript which is very usefull and easy to work with when making angular applicatons.
+
 ## Support and contact details
 I've linked any and all means of communications at my second website which is about me.
 ### License
