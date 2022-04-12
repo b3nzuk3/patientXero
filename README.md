@@ -1,7 +1,6 @@
-# QuotAble
+# quotAble
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
-# quotAble
 #### This site is a web app, Mar-15-2022
 #### By b3nzuk3
 ## Description
