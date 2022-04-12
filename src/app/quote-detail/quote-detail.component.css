@@ -1,8 +1,19 @@
 .author{
   padding-top: 30px;
+  padding-bottom: 5px;
 }
-
+.author-span{
+  font-family: 'Beau Rivage', cursive;
+  color: #FF8C32;
+  font-size: 1.3rem;
+}
+ .post{
+   font-size: 0.8rem;
+ }
 .votes{
 padding: 15px;
 
+}
+.time-count{
+  font-size: 0.7rem;
 }

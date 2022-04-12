@@ -1,5 +1,11 @@
 <div class="author">
-  Author: {{quote.name}} due after {{quote.completeDate | dateCount}}
+  <span class="author-span">Author </span>: {{quote.name}}
+</div>
+<div class="post">
+  post by: {{quote.author}}
+</div>
+<div class="time-count">
+  Time since post :{{quote.completeDate | dateCount}}
 </div>
 <div class="votes">
   <button class="btn btn-sm btn-info" (click)="likes()">
