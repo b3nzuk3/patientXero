@@ -4,3 +4,7 @@ h2{
   font-size: 3rem;
   font-weight: 500;
 }
+.form-space{
+  padding: 30px 20px;
+  line-height: 2;
+}

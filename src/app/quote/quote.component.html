@@ -4,9 +4,9 @@
      <h1 class="quote-h1">My Quotes</h1>
      <div *ngFor='let quote of quotes;let i = index' class="quote-layout">
        <div class="">
-        <h3>{{quote.quoteTitle}}</h3>
+        <h3 class="white">{{quote.title}}</h3>
        </div>
-       <div class="quote-description">
+       <div class="quote-description white">
          {{quote.description}}
          <app-quote-detail [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
        </div>
