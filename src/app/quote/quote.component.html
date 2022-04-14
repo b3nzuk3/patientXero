@@ -1,8 +1,8 @@
 <div class="row row-content">
   <div class="col-md-6">
     <h1 class="quote-h1">My Quotes</h1>
-    <div *ngFor='let quote of quotes;let i = index' class="quote-layout">
-      <div [appHighlight]='quote.likes === mostVoted.likes' class="">
+    <div *ngFor='let quote of quotes;let i = index'>
+      <div [appHighlight]='quote.likes === mostVoted.likes' class="quote-layout">
         <div class="">
           <h3 class="">{{quote.title}}</h3>
         </div>
