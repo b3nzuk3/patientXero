@@ -45,7 +45,7 @@ export class QuoteComponent implements OnInit {
       return <any>new Date(b.completeDate) - <any>new Date(a.completeDate)
     });
   }
-  
+
 
   constructor() { }
 
