@@ -5,6 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 #### By b3nzuk3
 ## Description
 These is web app allows its user to interact with and the same time share quotes to everyday users.
+
+
 ![LANDING PAGE](patientXero.png)
 
 ## Setup/Installation Requirements
